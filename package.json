@@ -11,12 +11,14 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@bull-board/api": "^6.16.1",
+    "@bull-board/express": "^6.16.1",
     "bullmq": "^5.63.0",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.6.1",
     "express": "^5.1.0",
     "handlebars": "^4.7.8",
     "ioredis": "^5.8.2",
-    "nodemailer": "^7.0.10",
+    "nodemailer": "^7.0.12",
     "uuid": "^11.1.0",
     "winston": "^3.17.0",
     "winston-daily-rotate-file": "^5.0.0",
@@ -25,6 +27,7 @@
   "devDependencies": {
     "@types/express": "^5.0.1",
     "@types/node": "^22.14.0",
+    "@types/nodemailer": "^7.0.4",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
